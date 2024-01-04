@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif
+![](https://github.com/prachiheda/web102_prework/blob/main/codepathprework.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap
