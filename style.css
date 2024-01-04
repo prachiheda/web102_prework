@@ -5,6 +5,17 @@ body {
     background-color: #758190;
 }
 
+.stats-containers {
+    display: flex;
+    align-items: center; /* Adjust alignment as needed */
+}
+  
+  /* Add hover effect for stats-container */
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 #tentacles {
     width: 50px;
 }
@@ -17,6 +28,12 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+}
+
+.header a {
+    text-decoration: none; 
+    margin-left: auto; 
+    font-weight: bold; 
 }
 
 .stats-container {
@@ -72,4 +89,52 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#button-container {
+    text-align: center;
+}
+
+#search-input {
+    padding: 10px;
+    width: 400px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#search-btn {
+    padding: 10px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #45a049;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+p, h2 {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ddd; /* Change the background color on hover */
+    color: #333; /* Change the text color on hover */
 }
